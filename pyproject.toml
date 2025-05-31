@@ -4,10 +4,16 @@ build-backend = "pdm.backend"
 
 [project]
 name = "apggr"
+<<<<<<< HEAD
 version = "1.0.1"
 description = "A package for the analysis of population genetics for genomic regions (APGGR) targeting bacterial species."
 authors = [{ name = "Limbani Thengo", email = "lthengo@gmail.com" }]
 readme = "README.md"
+=======
+version = "1.0.0"
+description = "A package for the analysis of population genetics for genomic regions (APGGR) targeting bacterial species."
+authors = [{ name = "Limbani Thengo", email = "lthengo@gmail.com" }]
+>>>>>>> a4b4075a8bdd4fcacdc55f1763b74eecdedafcc2
 dependencies = [
   "biopython >= 1.84",
   "matplotlib >= 3.8.0",
